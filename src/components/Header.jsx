@@ -2,7 +2,7 @@ import { useState } from "react";
 import ModalLogin from "./ModalLogin";
 
 const Header = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isLogined, setIsLogined] = useState(false);
 
   return (
     <header className="flex items-center justify-between">
@@ -20,23 +20,41 @@ const Header = () => {
           className="h-12 w-3/5 border-1 border-slate-400 rounded-lg bg-slate-100 "
           placeholder="   나의 진짜 성장을 도와줄 실무 강의를 찾아보세요"
         ></input>
-        <div className="isLogout">
-          <button
-            className="loginBtn h-12 bg-green-500 text-white font-semibold px-5 py-2 rounded-lg"
-            onClick={() => setIsModalOpen(true)} // 모달 열기
-          >
-            로그인
-          </button>
-        </div>
+        {isLogined == false ? <IsNotLogined /> : <IsLogined />}
       </div>
+    </header>
+  );
+};
 
+const IsNotLogined = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  return (
+    <div className="isLogout">
+      <button
+        className="loginBtn h-12 bg-green-500 text-white font-semibold px-5 py-2 rounded-lg"
+        onClick={() => setIsModalOpen(true)} // 모달 열기
+      >
+        로그인
+      </button>
       {/* 모달 컴포넌트 */}
       {isModalOpen && <ModalLogin onClose={() => setIsModalOpen(false)} />}
-      {/* <div className="isLogin">
-        <div className="header_dashBoard"></div>
-        <div className="header_icons"></div>
-      </div> */}
-    </header>
+    </div>
+  );
+};
+
+const IsLogined = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  return (
+    <div className="isLogout">
+      <button
+        className="loginBtn h-12 bg-green-500 text-white font-semibold px-5 py-2 rounded-lg"
+        onClick={() => setIsModalOpen(true)} // 모달 열기
+      >
+        로그아웃
+      </button>
+      {/* 모달 컴포넌트 */}
+      {isModalOpen && <ModalLogin onClose={() => setIsModalOpen(false)} />}
+    </div>
   );
 };
 
