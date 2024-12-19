@@ -87,28 +87,28 @@ const MainPic = () => {
 
         {/* 메뉴 버튼들 */}
         <div className="h-10 flex gap-2">
-          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-green-50 hover:border-green-500 hover:text-green-500 ">
+          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-orange-50 hover:border-orange-500 hover:text-orange-500 ">
             AI 커리어 스쿨
           </button>
-          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-green-50 hover:border-green-500 hover:text-green-500 ">
+          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-orange-50 hover:border-orange-500 hover:text-orange-500 ">
             정보처리기사 실기
           </button>
-          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-green-50 hover:border-green-500 hover:text-green-500 ">
+          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-orange-50 hover:border-orange-500 hover:text-orange-500 ">
             기술 블로그
           </button>
-          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-green-50 hover:border-green-500 hover:text-green-500 ">
+          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-orange-50 hover:border-orange-500 hover:text-orange-500 ">
             코테 합격
           </button>
-          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-green-50 hover:border-green-500 hover:text-green-500 ">
+          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-orange-50 hover:border-orange-500 hover:text-orange-500 ">
             AI로 개발하기
           </button>
-          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-green-50 hover:border-green-500 hover:text-green-500 ">
+          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-orange-50 hover:border-orange-500 hover:text-orange-500 ">
             퀴즈이벤트
           </button>
-          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-green-50 hover:border-green-500 hover:text-green-500 ">
+          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-orange-50 hover:border-orange-500 hover:text-orange-500 ">
             Top 50 👑
           </button>
-          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-green-50 hover:border-green-500 hover:text-green-500 ">
+          <button className="border border-gray-300 px-3 py-1 rounded-full text-sm hover:bg-orange-50 hover:border-orange-500 hover:text-orange-500 ">
             로드맵 🌱
           </button>
           {/* 드롭다운 버튼 */}

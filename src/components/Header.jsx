@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between">
       <div className="header_logo mr-8 pl-5">
-        <img src="src/assets/Logo.png"></img>
+        <img src="src/assets/EduBox.png"></img>
       </div>
       <div className="h-16 w-full px-5 flex items-center justify-between ">
         <div className="header_menu flex gap-5 font-semibold text-xl">
@@ -31,7 +31,7 @@ const IsNotLogined = () => {
   return (
     <div className="isLogout">
       <button
-        className="loginBtn h-12 bg-green-500 text-white font-semibold px-5 py-2 rounded-lg"
+        className="loginBtn h-12 bg-orange-500 text-white font-semibold px-5 py-2 rounded-lg"
         onClick={() => setIsModalOpen(true)} // 모달 열기
       >
         로그인
@@ -47,7 +47,7 @@ const IsLogined = () => {
   return (
     <div className="isLogout">
       <button
-        className="loginBtn h-12 bg-green-500 text-white font-semibold px-5 py-2 rounded-lg"
+        className="loginBtn h-12 bg-orange-500 text-white font-semibold px-5 py-2 rounded-lg"
         onClick={() => setIsModalOpen(true)} // 모달 열기
       >
         로그아웃

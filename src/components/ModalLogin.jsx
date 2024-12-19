@@ -22,18 +22,18 @@ const ModalLogin = ({ onClose }) => {
         >
           &#x2715;
         </button>
-        <img src="src/assets/Logo.png" className="block mx-auto my-5"></img>
+        <img src="src/assets/EduBox.png" className="block mx-auto my-5"></img>
         <input
           type="email"
           placeholder="이메일"
-          className="w-full border rounded p-2 mb-4 focus:ring-2 focus:ring-green-400"
+          className="w-full border rounded p-2 mb-4 focus:ring-2 focus:ring-orange-400"
         />
         <input
           type="password"
           placeholder="비밀번호"
-          className="w-full border rounded p-2 focus:ring-2 focus:ring-green-400"
+          className="w-full border rounded p-2 focus:ring-2 focus:ring-orange-400"
         />
-        <button className="w-full bg-green-500 text-white mt-10 mb-4 py-2 rounded hover:bg-green-600 ">
+        <button className="w-full bg-orange-500 text-white mt-10 mb-4 py-2 rounded hover:bg-orange-600 ">
           로그인
         </button>
         <div className="flex justify-center text-gray-400 gap-4">

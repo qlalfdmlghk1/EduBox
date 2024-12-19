@@ -10,7 +10,7 @@ const MainSearch = () => {
           <input
             type="text"
             placeholder=" 배우고 싶은 지식을 입력해보세요."
-            className="w-full p-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"
+            className="w-full p-3 rounded-full border border-gray-300 focus:outline-none focus:ring-2 focus:ring-orange-400"
           />
           <button className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400">
             {/* right-3 : 부모의 오른쪽에서 12px 떨어진 위치에 배치 */}
