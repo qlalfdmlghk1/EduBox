@@ -22,7 +22,10 @@ const ModalLogin = ({ onClose }) => {
         >
           &#x2715;
         </button>
-        <img src="src/assets/EduBox.png" className="block mx-auto my-5"></img>
+        <div className="flex items-center justify-center">
+          <img src="src/assets/Logo.png" className="h-12"></img>
+          <img src="src/assets/EduBox.png" className="mx-0 my-5"></img>
+        </div>
         <input
           type="email"
           placeholder="이메일"

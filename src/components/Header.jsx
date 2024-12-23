@@ -6,8 +6,9 @@ const Header = () => {
 
   return (
     <header className="flex items-center justify-between">
-      <div className="header_logo mr-8 pl-5">
-        <img src="src/assets/EduBox.png"></img>
+      <div className="flex header_logo mr-8 pl-5">
+        <img src="src/assets/Logo.png" className="h-12"></img>
+        <img src="src/assets/EduBox.png" className="h-12"></img>
       </div>
       <div className="h-16 w-full px-5 flex items-center justify-between ">
         <div className="header_menu flex gap-5 font-semibold text-xl">
